@@ -100,7 +100,7 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
 				      <select class="form-control" id="brandName" name="brandName">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<?php 
 				      	$sql = "SELECT brand_id, brand_name, brand_active, brand_status FROM brands WHERE brand_status = 1 AND brand_active = 1";
 								$result = $connect->query($sql);
@@ -119,7 +119,7 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
 				      <select type="text" class="form-control" id="categoryName" placeholder="Product Name" name="categoryName" >
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<?php 
 				      	$sql = "SELECT categories_id, categories_name, categories_active, categories_status FROM categories WHERE categories_status = 1 AND categories_active = 1";
 								$result = $connect->query($sql);
@@ -138,7 +138,7 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-8">
 				      <select class="form-control" id="productStatus" name="productStatus">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1">Available</option>
 				      	<option value="2">Not Available</option>
 				      </select>
@@ -258,7 +258,7 @@
 			        	<label class="col-sm-1 control-label">: </label>
 						    <div class="col-sm-8">
 						      <select class="form-control" id="editBrandName" name="editBrandName">
-						      	<option value="">~~SELECT~~</option>
+						      	<option value="">---CHOOSE---</option>
 						      	<?php 
 						      	$sql = "SELECT brand_id, brand_name, brand_active, brand_status FROM brands WHERE brand_status = 1 AND brand_active = 1";
 										$result = $connect->query($sql);
@@ -277,7 +277,7 @@
 			        	<label class="col-sm-1 control-label">: </label>
 						    <div class="col-sm-8">
 						      <select type="text" class="form-control" id="editCategoryName" name="editCategoryName" >
-						      	<option value="">~~SELECT~~</option>
+						      	<option value="">---CHOOSE---</option>
 						      	<?php 
 						      	$sql = "SELECT categories_id, categories_name, categories_active, categories_status FROM categories WHERE categories_status = 1 AND categories_active = 1";
 										$result = $connect->query($sql);
@@ -296,7 +296,7 @@
 			        	<label class="col-sm-1 control-label">: </label>
 						    <div class="col-sm-8">
 						      <select class="form-control" id="editProductStatus" name="editProductStatus">
-						      	<option value="">~~SELECT~~</option>
+						      	<option value="">---CHOOSE---</option>
 						      	<option value="1">Available</option>
 						      	<option value="2">Not Available</option>
 						      </select>

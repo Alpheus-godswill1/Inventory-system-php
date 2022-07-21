@@ -46,8 +46,8 @@
         <span class="icon-bar"></span>
       </button>
       <!-- <a class="navbar-brand" href="#">Brand</a> -->
-	  <a class="navbar-brand" href="#" style="padding:0px;">
-                    <img src="logo.png" alt="">
+	  <a class="navbar-brand" href="./dashboard.php" style="padding:0px;">
+                    <img src="logo.jpg" alt="" width="200px" height="50px">
                 </a>
     </div>
 

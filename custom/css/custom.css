@@ -14,14 +14,16 @@ div.card {
 
 
 div.cardHeader {
-    background-color: #4CAF50;
+    background-color: #400;
     color: white;
     padding: 10px;
     font-size: 40px;
+    border-radius: 12px 4px 12px 4px;
 }
 
 div.cardContainer {
     padding: 10px;
+
 }
 
 

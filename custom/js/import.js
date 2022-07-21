@@ -17,7 +17,7 @@ $(document).ready(function() {
 	  msgErrorClass: 'alert alert-block alert-danger',
 	  layoutTemplates: {main2: '{preview} {remove} {browse}'},
 	  defaultPreviewContent: '<img src="assests/images/photo_default.png" alt="Profile Image" style="width:100%;">',							    
-		allowedFileExtensions: ["csv", "xls", "xlsx"]
+		allowedFileExtensions: ["csv", "xls", "xlsx","jpeg","pdf","jpg","mp3"]
 	  });
 		$(".text-danger").remove();
 		// remove from-group error

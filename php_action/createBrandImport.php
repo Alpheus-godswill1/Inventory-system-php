@@ -13,7 +13,7 @@ if($_FILES) {
 	$type = explode('.', $_FILES['brandfile']['name']);
 	$type = $type[count($type)-1];		
 	$url = '../assests/images/stock/'.uniqid(rand()).'.'.$type;
-	if(in_array($type, array("csv", "xls", "xlsx"))) {
+	if(in_array($type, array("csv", "xls", "xlsx","jpeg","pdf","jpg","mp3"))) {
 		if(is_uploaded_file($_FILES['brandfile']['tmp_name'])) {			
 			if(move_uploaded_file($_FILES['brandfile']['tmp_name'], $url)) {
 				$objPHPExcel = PHPExcel_IOFactory::load($url);

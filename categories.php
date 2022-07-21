@@ -18,7 +18,7 @@
 				<div class="remove-messages"></div>
 
 				<div class="div-action pull pull-right" style="padding-bottom:20px;">
-					<button class="btn btn-success button1" data-toggle="modal" id="addCategoriesModalBtn" data-target="#addCategoriesModal"> <i class="glyphicon glyphicon-plus-sign"></i> Add Categories </button>
+					<button class="btn btn-success button1" data-toggle="modal" id="addCategoriesModalBtn"  data-target="#addCategoriesModal"> <i class="glyphicon glyphicon-plus-sign"></i> Add Categories </button>
 				</div> <!-- /div-action -->				
 				
 				<table class="table table-hover table-striped table-bordered" id="manageCategoriesTable">
@@ -64,7 +64,7 @@
 	        	<label class="col-sm-1 control-label">: </label>
 				    <div class="col-sm-7">
 				      <select class="form-control" id="categoriesStatus" name="categoriesStatus">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1">Available</option>
 				      	<option value="2">Not Available</option>
 				      </select>
@@ -116,7 +116,7 @@
 		        	<label class="col-sm-1 control-label">: </label>
 					    <div class="col-sm-7">
 					      <select class="form-control" id="editCategoriesStatus" name="editCategoriesStatus">
-					      	<option value="">~~SELECT~~</option>
+					      	<option value="">---CHOOSE---</option>
 					      	<option value="1">Available</option>
 					      	<option value="2">Not Available</option>
 					      </select>

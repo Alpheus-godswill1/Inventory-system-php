@@ -102,7 +102,7 @@ if($_GET['o'] == 'add') {
 			  					<div class="form-group">
 
 			  					<select class="form-control" name="productName[]" id="productName<?php echo $x; ?>" onchange="getProductData(<?php echo $x; ?>)" >
-			  						<option value="">~~SELECT~~</option>
+			  						<option value="">---CHOOSE---</option>
 			  						<?php
 			  							$productSql = "SELECT * FROM product WHERE active = 1 AND status = 1 AND quantity != 0";
 			  							$productData = $connect->query($productSql);
@@ -201,7 +201,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Type</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentType" id="paymentType">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1">Cheque</option>
 				      	<option value="2">Cash</option>
 				      	<option value="3">Credit Card</option>
@@ -212,7 +212,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Status</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentStatus" id="paymentStatus">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1">Full Payment</option>
 				      	<option value="2">Advance Payment</option>
 				      	<option value="3">No Payment</option>
@@ -223,7 +223,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Place</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentPlace" id="paymentPlace">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1">Inside Valley</option>
 				      	<option value="2">Out of Valley</option>
 				      </select>
@@ -329,7 +329,7 @@ if($_GET['o'] == 'add') {
 			  					<div class="form-group">
 
 			  					<select class="form-control" name="productName[]" id="productName<?php echo $x; ?>" onchange="getProductData(<?php echo $x; ?>)" >
-			  						<option value="">~~SELECT~~</option>
+			  						<option value="">---CHOOSE---</option>
 			  						<?php
 			  							$productSql = "SELECT * FROM product WHERE active = 1 AND status = 1 AND quantity != 0";
 			  							$productData = $connect->query($productSql);
@@ -459,7 +459,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Type</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentType" id="paymentType" >
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1" <?php if($data[11] == 1) {
 				      		echo "selected";
 				      	} ?> >Cheque</option>
@@ -476,7 +476,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Status</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentStatus" id="paymentStatus">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1" <?php if($data[12] == 1) {
 				      		echo "selected";
 				      	} ?>  >Full Payment</option>
@@ -493,7 +493,7 @@ if($_GET['o'] == 'add') {
 				    <label for="clientContact" class="col-sm-3 control-label">Payment Place</label>
 				    <div class="col-sm-9">
 				      <select class="form-control" name="paymentPlace" id="paymentPlace">
-				      	<option value="">~~SELECT~~</option>
+				      	<option value="">---CHOOSE---</option>
 				      	<option value="1" <?php if($data[13] == 1) {
 				      		echo "selected";
 				      	} ?>  >Inside Valley</option>
@@ -556,7 +556,7 @@ if($_GET['o'] == 'add') {
 			    <label for="clientContact" class="col-sm-3 control-label">Payment Type</label>
 			    <div class="col-sm-9">
 			      <select class="form-control" name="paymentType" id="paymentType" >
-			      	<option value="">~~SELECT~~</option>
+			      	<option value="">---CHOOSE---</option>
 			      	<option value="1">Cheque</option>
 			      	<option value="2">Cash</option>
 			      	<option value="3">Credit Card</option>
@@ -567,7 +567,7 @@ if($_GET['o'] == 'add') {
 			    <label for="clientContact" class="col-sm-3 control-label">Payment Status</label>
 			    <div class="col-sm-9">
 			      <select class="form-control" name="paymentStatus" id="paymentStatus">
-			      	<option value="">~~SELECT~~</option>
+			      	<option value="">---CHOOSE---</option>
 			      	<option value="1">Full Payment</option>
 			      	<option value="2">Advance Payment</option>
 			      	<option value="3">No Payment</option>

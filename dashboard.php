@@ -47,7 +47,7 @@ $connect->close();
 				
 				<a href="product.php" style="text-decoration:none;color:black;">
 					Total Product
-					<span class="badge pull pull-right"><?php echo $countProduct; ?></span>	
+					<span class="badge pull pull-right" style="background-color:#f1800fea;"><?php echo $countProduct; ?></span>	
 				</a>
 				
 			</div> <!--/panel-hdeaing-->
@@ -59,7 +59,7 @@ $connect->close();
 			<div class="panel-heading">
 				<a href="product.php" style="text-decoration:none;color:black;">
 					Low Stock
-					<span class="badge pull pull-right"><?php echo $countLowStock; ?></span>	
+					<span class="badge pull pull-right" style="background-color:#f1800fea;"><?php echo $countLowStock; ?></span>	
 				</a>
 				
 			</div> <!--/panel-hdeaing-->
@@ -73,7 +73,7 @@ $connect->close();
 			<div class="panel-heading">
 				<a href="orders.php?o=manord" style="text-decoration:none;color:black;">
 					Total Orders
-					<span class="badge pull pull-right"><?php echo $countOrder; ?></span>
+					<span class="badge pull pull-right" style="background-color:#f1800fea;"><?php echo $countOrder; ?></span>
 				</a>
 					
 			</div> <!--/panel-hdeaing-->
@@ -95,9 +95,9 @@ $connect->close();
 		<br/>
 
 		<div class="card">
-		  <div class="cardHeader" style="background-color:#245580;">
+		  <div class="cardHeader" style="background-color:#f1800fea;">
 		    <h1><?php if($totalRevenue) {
-		    	echo '$'.$totalRevenue;
+		    	echo '$450'.$totalRevenue;
 		    	} else {
 		    		echo '$0';
 		    		} ?></h1>
